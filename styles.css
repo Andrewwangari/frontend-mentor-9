@@ -1,0 +1,509 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 1.5;
+}
+
+
+/* Style the header */
+header {
+    background-image: url('images/bg-header-desktop.png'); /* Replace with your image path */
+    background-size: cover; /* Ensure the background image covers the entire header */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    padding: 2em 0; /* Adjust top and bottom padding using em units */
+    text-align: center;
+    position: relative; /* Create a positioning context for absolute positioning */
+    height: 15%; /* Set a percentage-based height */
+  }
+  
+  /* Style the logo image */
+  header img {
+    max-width: 100%; /* Allow the logo to occupy the full width */
+    margin-top: 4em; /* Add extra margin on top using em units */
+  }
+
+
+/* Style the first section */
+
+.first-section {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     height: 20%;
+     padding: 1em 2em;
+     background-color: rgba(255, 255, 255, 0.918);
+     margin-bottom: 2em;
+}
+
+.first-section h1 {
+      margin-bottom: 0.4em;
+      color: hsl(210, 10%, 33%);
+}
+
+.first-section p {
+       font-size: 0.875rem;
+       padding: 1em;
+       color: hsla(240, 3%, 62%, 0.849);
+       margin-bottom: 1em;
+}
+
+div > button {
+  background-color: hsl(171, 66%, 44%); /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 1em 2em; /* Adjust padding using em units for responsive spacing */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin: 0.5em; /* Add space around buttons using em units */
+  border-radius: 20px; /* Add rounded corners to buttons */
+  font-size: 0.675rem; /* Font size using rem units for responsiveness */
+}
+ .button-B {
+  background-color: hsl(233, 100%, 69%);
+ }
+
+ /* Style the second section */
+
+ .second-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 4em 2em;
+        background-color: rgba(255, 255, 255, 0.918);
+
+ }
+
+ .second-section h2 {
+       margin-bottom: 0.875em;
+       color: hsl(210, 10%, 33%);
+}
+ 
+.second-section p {
+       font-size: 0.875rem;
+       padding: 1em;
+       color: hsla(240, 3%, 62%, 0.849);
+       margin-bottom: 1em;
+}
+
+/* Style the third section  */
+
+.third-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+  justify-content: center; /* Center elements horizontally */
+  align-items: center; /* Center elements vertically */
+  padding: 4em 0; /* Add spacing using em units */
+}
+
+/* Style the first aside element */
+.aside1 {
+  position: relative; /* Enable relative positioning for this element */
+  flex: 1; /* Distribute available space equally among feature boxes */
+  text-align: center;
+  padding: 2em; /* Add spacing using em units */
+  background-color: #ffffff; /* Feature box background color */
+  border-radius: 8px; /* Add rounded corners to feature boxes */
+  margin-right: 5em; /* Add space around feature boxes using em units */
+}
+
+.aside1 img {
+  max-width: 100%; /* Allow the image to occupy the full width */
+  height: auto;
+  display: block; /* Remove image borders */
+  margin-left: -20%; /* Negative margin to extend image outside the viewport on the left side */
+  position: relative; /* Enable relative positioning for the image */
+}
+
+
+/* Style the second aside element */
+.aside2 {
+  flex: 1; /* Distribute available space equally among feature boxes */
+  text-align: left;
+  padding: 3em 2em; /* Add spacing using em units */
+  background-color: #ffffff; /* Feature box background color */
+  border-radius: 8px; /* Add rounded corners to feature boxes */
+  margin: 3em; /* Add space around feature boxes using em units */
+}
+
+/* Style the feature box headings and paragraphs */
+.third-section aside h3,
+.third-section aside p {
+  margin-bottom: 1em; /* Add space below headings and paragraphs using em units */
+}
+
+.box1,.box2,.box3 {
+        margin-bottom: 5em;
+        
+        
+}
+
+.aside2 p {
+       color: hsla(240, 3%, 62%, 0.849);
+       font-size: 0.875rem;
+
+}
+
+
+
+/* Style the fourth section  */
+
+
+.fourth-section {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+  text-align: center;
+  padding: 4em 0; /* Add spacing using em units */
+}
+ .fourth-section div {
+      margin-top: 4em;
+      margin-bottom: 2em;
+ }
+
+
+.fourth-section h2,
+.fourth-section p {
+  margin-bottom: 1em; /* Add space below elements using em units */
+}
+
+.fourth-section p {
+       color: hsla(240, 3%, 62%, 0.849);
+       font-size: 0.875rem;
+
+}
+
+/* Style the image inside the fourth section */
+.fourth-section img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block; /* Remove image borders */
+  margin: 2em 0; /* Add spacing around the image using em units */
+}
+
+
+/* Style the fifth section with the class selector */
+.fifth-section {
+  display: flex;
+  justify-content: space-around; /* Distribute space between elements */
+  align-items: center; /* Center elements vertically */
+  text-align: center;
+  padding: 2em 2em; /* Add spacing using em units */
+}
+/* Style the aside elements (feature boxes) */
+.fifth-section aside {
+  flex: 1; /* Distribute available space equally among feature boxes */
+  text-align: center;
+  padding: 2em; /* Add spacing using em units */
+
+  
+  margin: 0 1em; /* Add space on the left and right of feature boxes using em units */
+}
+
+/* Style the feature box icons */
+.fifth-section aside img {
+  max-width: 64px;
+  margin-bottom: 2em; /* Add space below icons using em units */
+}
+
+/* Style the feature box headings and paragraphs */
+.fifth-section aside h3,
+.fifth-section aside p {
+  margin-bottom: 1em; /* Add space below headings and paragraphs using em units */
+}
+
+.fifth-section aside p {
+       color: hsla(240, 3%, 62%, 0.849);
+       font-size: 0.875rem;
+
+}
+
+/* Style the sixth section with the class selector */
+.sixth-section {
+  display: flex;
+  justify-content: space-around; /* Distribute space between elements */
+  align-items: center; /* Center elements vertically */
+  text-align: center;
+  padding: 2em 2em; /* Add spacing using em units */
+}
+
+/* Style the seventh section */
+
+.seventh-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 20%;
+  padding: 1em 2em;
+  background-color: rgba(255, 255, 255, 0.918);
+  margin-bottom: 3em;
+  margin-top: 2em;
+}
+
+.seventh-section h1 {
+   margin-bottom: 0.4em;
+   color: hsl(210, 10%, 33%);
+}
+
+.seventh-section p {
+    font-size: 0.875rem;
+    padding: 1em;
+    color: hsla(240, 3%, 62%, 0.849);
+    margin-bottom: 1em;
+}
+
+div > button {
+background-color: hsl(171, 66%, 44%); /* Button background color */
+color: #fff; /* Button text color */
+padding: 1em 2em; /* Adjust padding using em units for responsive spacing */
+border: none; /* Remove button border */
+cursor: pointer; /* Change cursor to pointer on hover */
+margin: 0.5em; /* Add space around buttons using em units */
+border-radius: 20px; /* Add rounded corners to buttons */
+font-size: 0.675rem; /* Font size using rem units for responsiveness */
+}
+
+.button-B {
+  background-color: hsl(233, 100%, 69%);
+ }
+
+/* Style the footer section */
+footer {
+  background-color: #f5f5f5; /* Set a background color for the footer */
+  padding: 2em 0; /* Add spacing using em units */
+}
+
+/* Style the footer content with the .footer-section class */
+.footer-section {
+  display: flex;
+  justify-content: space-around; /* Distribute space between elements */
+  align-items: center; /* Center elements vertically */
+  text-align: center;
+  padding: 1em; /* Add spacing using em units */
+}
+
+/* Style the aside elements in the footer */
+.footer-section aside {
+  text-align: center;
+  margin: 0 1em; /* Add space on the left and right of aside elements using em units */
+}
+
+/* Style the icons in the footer */
+.footer-section div img {
+  max-width: 50px; /* Set a max width for the icons */
+  margin: 0 0.5em; /* Add space around icons using em units */
+}
+
+aside p {
+  margin-bottom: 1em;
+  font-size: 0.875rem;
+}
+.footer-section p {
+  vertical-align: top;
+  margin-top: 0;
+}
+
+.footer-section div {
+  display: flex;
+}
+
+/* Add a media query for screens with a maximum width of 900px */
+@media (max-width: 900px) {
+  /* Style adjustments for screens up to 900px */
+
+  /* For example, you can adjust the header padding and font sizes */
+  header {
+    padding: 1em 0.5em; /* Reduce padding */
+  }
+
+  header img {
+    margin-top: 1em; /* Adjust top margin */
+  }
+
+  .first-section {
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  div > button {
+    padding: 0.8em 1.2em; /* Adjust button padding */
+    font-size: 0.8rem; /* Adjust button font size */
+  }
+
+  /* Add more style adjustments as needed for elements that are breaking */
+
+  /* For example, you can adjust the second-section padding */
+  .second-section {
+    padding: 2em 1em; /* Reduce padding */
+  }
+
+  /* For example, you can adjust the font size in the fifth section */
+  .fifth-section aside {
+    font-size: 0.8rem; /* Adjust font size */
+  }
+
+  /* For example, you can adjust the padding in the fourth section */
+  .fourth-section {
+    padding: 2em 0.5em; /* Reduce padding */
+  }
+
+  /* For example, you can adjust the margin in the third section */
+  .third-section {
+    margin: 1em 0; /* Add margin on top and bottom */
+  }
+
+   /* Add space between elements in the sixth section */
+   .sixth-section {
+    justify-content: space-around; /* Distribute space between elements */
+  }
+
+  /* Add margin to the elements in the sixth section */
+  .sixth-section div {
+    margin: 1em; /* Add space around elements */
+
+
+}
+
+/* Add a media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  /* Style the header for smaller screens */
+  header {
+    padding: 1em 0; /* Reduce top and bottom padding */
+    height: auto; /* Allow header height to adjust based on content */
+    background-image: none; /* Remove background image */
+  }
+
+  /* Style the logo image for smaller screens */
+  header img {
+    margin-top: 2em; /* Adjust top margin */
+  }
+
+  /* Style the first section for smaller screens */
+  .first-section {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 1em; /* Reduce padding */
+  }
+
+  /* Adjust button styles for smaller screens */
+  div > button {
+    padding: 0.8em 1.5em; /* Adjust button padding */
+    font-size: 0.8rem; /* Adjust button font size */
+  }
+
+  /* Style the second section for smaller screens */
+  .second-section {
+    padding: 2em 1em; /* Reduce padding */
+  }
+
+  /* Style the third section for smaller screens */
+  .third-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center;
+    margin: 2em 0; /* Add margin on top and bottom */
+  }
+
+  /* Adjust the image in the third section for smaller screens */
+  .aside1 img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove image borders */
+    margin-left: 2em; /* Remove negative margin */
+  }
+  
+    
+  
+
+  /* Style the second aside element for smaller screens */
+  .aside2 {
+    margin: 2em 0; /* Add margin on top and bottom */
+  }
+
+  /* Style the fourth section for smaller screens */
+  .fourth-section {
+    padding: 2em 0; /* Reduce padding */
+  }
+
+  /* Style the fifth section for smaller screens */
+  .fifth-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
+
+  /* Style the feature boxes in the fifth section for smaller screens */
+  .fifth-section aside {
+    margin: 1em 0; /* Add margin on top and bottom */
+  }
+
+  /* Style the sixth section for smaller screens */
+  .sixth-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
+
+  /* Style the seventh section for smaller screens */
+  .seventh-section {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 1em; /* Reduce padding */
+  }
+
+  /* Adjust button styles in the seventh section for smaller screens */
+  .seventh-section div > button {
+    padding: 0.8em 1.5em; /* Adjust button padding */
+    font-size: 0.8rem; /* Adjust button font size */
+  }
+}
+
+/* Add a media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  /* Style adjustments for screens up to 480px */
+
+  /* Stack elements in the footer on top of each other with space between them */
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Add space between the elements in the footer */
+  .footer-section aside {
+    margin-bottom: 1em; /* Add margin at the bottom of aside elements */
+  }
+
+  /* Reduce padding in the footer */
+  footer {
+    padding: 1em 0;
+  }
+
+  /* Adjust icon spacing in the footer */
+  .footer-section div  {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .footer-section .logo {
+    margin-bottom: 1em;
+  }
+}
+
+
+.attribution { 
+        font-size: 11px;
+         text-align: center;
+     }
+     
+     
+.attribution a {
+
+    color: hsl(228, 45%, 44%); 
+}
